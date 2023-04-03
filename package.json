@@ -1,5 +1,4 @@
 {
-  "homepage": "https://github.com/milos3design/bank_modern_app.git",
   "name": "bank_modern_app",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +7,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=./",
     "preview": "vite preview"
   },
   "dependencies": {
